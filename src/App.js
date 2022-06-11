@@ -1,6 +1,5 @@
 import './App.css';
 import TeacherList from './components/TeacherList';
-import './appStyles.css'
 
 function App() {
   return (
