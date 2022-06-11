@@ -1,6 +1,7 @@
 import './App.css';
 import TeacherList from './components/TeacherList';
-import Inline from './components/Inline';
+import './appStyles.css'
+import styles from './appStyles.module.css'
 
 
 function App() {
@@ -8,7 +9,8 @@ function App() {
     <div className="container">
       <h1>List of Instructors:</h1>      
       <TeacherList />
-      <Inline/>
+      <h1 className='error'>Error</h1>
+      <h1 className={styles.success}>Success</h1>
     </div>
   );
 }
