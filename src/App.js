@@ -5,6 +5,7 @@ function App() {
   return (
     <div>
       <SpringStatus />
+      <p>Components here eventually</p>
     </div>
   );
 }
