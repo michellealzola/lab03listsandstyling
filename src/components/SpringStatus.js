@@ -5,15 +5,18 @@ class springstatus extends Component {
       super(props)
     
       this.state = {
-         isTeaching: false
+         isTeaching: true
       }
     }
   render() {
-    return(
-      this.state.isTeaching ? 
-      <div>Status of Teaching in Spring: true</div> : 
-      <div>Status of Teaching in Spring: false</div>
-    )
+    //Short circuit if false not showing
+    return this.state.isTeaching && <div>Status of Teaching in Spring: true</div>
+
+    // return(
+    //   this.state.isTeaching ? 
+    //   <div>Status of Teaching in Spring: true</div> : 
+    //   <div>Status of Teaching in Spring: false</div>
+    // )
 
     // let message 
     // if(this.state.isTeaching)
