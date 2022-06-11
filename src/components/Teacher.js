@@ -1,8 +1,17 @@
 import React from 'react'
 
+const workingTrue = 
+{
+  color: 'green'
+}
+const workingFalse = 
+{
+  color: 'red'
+}
 function Teacher({teacher}) {
-  return (
-    <div>
+  
+  return (    
+    <div style={`${teacher.status}` === 'true' ? workingTrue : workingFalse}>
             <ol start={teacher.number}>
                 <li>
                     <strong>Name:</strong> {teacher.name} <br/>
