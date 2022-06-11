@@ -37,3 +37,18 @@
   }
 }
 
+li
+{
+  font-size:larger ;  
+}
+
+h1
+{
+  text-indent: 1%;
+}
+
+.container
+{
+  background-color: brown;
+  padding: 2%;
+}

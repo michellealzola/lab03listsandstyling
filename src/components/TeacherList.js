@@ -1,4 +1,5 @@
 import React from 'react'
+import Teacher from './Teacher'
 
 function TeacherList() {  
     const teachers = 
@@ -46,17 +47,7 @@ function TeacherList() {
 
     ]
     
-    const teacherList = teachers.map(teacher => 
-        <div>
-            <ol start={teacher.number}>
-                <li>
-                    Name: {teacher.name} <br/>
-                    Age: {teacher.age} <br/>
-                    City: {teacher.city} <br/>
-                    Status of Teaching in Spring : {teacher.status}
-                </li>
-            </ol>        
-        </div>        
+    const teacherList = teachers.map(teacher => <Teacher teacher = {teacher}/>
     )
 
     return <div>{teacherList}</div>

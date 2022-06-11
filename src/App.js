@@ -4,8 +4,8 @@ import TeacherList from './components/TeacherList';
 
 function App() {
   return (
-    <div>
-    <h1>List of Instructors</h1>
+    <div class="container">
+      <h1>List of Instructors</h1>
       <SpringStatus />
       <TeacherList />
     </div>
