@@ -1,12 +1,10 @@
 import './App.css';
-import SpringStatus from './components/SpringStatus';
 import TeacherList from './components/TeacherList';
 
 function App() {
   return (
-    <div class="container">
-      <h1>List of Instructors</h1>
-      <SpringStatus />
+    <div className="container">
+      <h1>List of Instructors:</h1>      
       <TeacherList />
     </div>
   );

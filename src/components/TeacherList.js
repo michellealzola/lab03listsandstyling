@@ -47,8 +47,7 @@ function TeacherList() {
 
     ]
     
-    const teacherList = teachers.map(teacher => <Teacher teacher = {teacher}/>
-    )
+    const teacherList = teachers.map(teacher => <Teacher key={teacher.id} teacher = {teacher}/>)
 
     return <div>{teacherList}</div>
   
