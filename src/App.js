@@ -1,6 +1,6 @@
 import './App.css';
 import TeacherList from './components/TeacherList';
-import StyleSheet from './components/StyleSheet';
+import Inline from './components/Inline';
 
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <div className="container">
       <h1>List of Instructors:</h1>      
       <TeacherList />
-      <StyleSheet primary={true}/>
+      <Inline/>
     </div>
   );
 }
