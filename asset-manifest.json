@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/lab03listsandstyling/static/css/main.0680fd4c.css",
+    "main.js": "/lab03listsandstyling/static/js/main.741e79a6.js",
+    "static/js/787.fb98a375.chunk.js": "/lab03listsandstyling/static/js/787.fb98a375.chunk.js",
+    "index.html": "/lab03listsandstyling/index.html",
+    "main.0680fd4c.css.map": "/lab03listsandstyling/static/css/main.0680fd4c.css.map",
+    "main.741e79a6.js.map": "/lab03listsandstyling/static/js/main.741e79a6.js.map",
+    "787.fb98a375.chunk.js.map": "/lab03listsandstyling/static/js/787.fb98a375.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0680fd4c.css",
+    "static/js/main.741e79a6.js"
+  ]
+}
